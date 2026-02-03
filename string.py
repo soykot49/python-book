@@ -22,3 +22,31 @@ print("python" in text)
 # check if soomething not prsent in a string
 txt = 'welcome home'
 print('mars' not in txt)
+
+
+# slicing strings
+name = "Naruto Uzumaki"
+print(name[1:5])   #arut
+
+
+#slice from the start point
+name = "Dazai Osamu"
+print(name[:5])   #Dazai
+
+# slice to the end point
+name = "Osaka Nihon"
+print(name[6:])
+
+
+#negative indexing
+name = "World war 2"
+print(name[-5:-2] )
+
+# modiify string 
+x = "hello, world"
+
+print(x.upper())
+print(x.lower())
+print(x.strip())  # removes whitespace
+print(x.replace("h","j"))
+print(x.split(","))    #split into two parts
