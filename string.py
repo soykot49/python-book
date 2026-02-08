@@ -50,3 +50,23 @@ print(x.lower())
 print(x.strip())  # removes whitespace
 print(x.replace("h","j"))
 print(x.split(","))    #split into two parts
+
+
+# using f string to define
+name = 'John'
+age = 20
+print(f'My name is {name} and age is {age}')
+
+
+# display the value in a 2 decimal place
+price = 40
+print(f'the price is {price:.2f} usd')
+
+
+#string methods
+
+item = 'war and peace'
+print(item.capitalize())
+print(item.casefold())
+print(item.center(20))  #center the rest with chracters like this (-----war and peace-----)
+
